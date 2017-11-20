@@ -108,7 +108,7 @@ import { Component } from '@angular/core';
 
  // `
 
- template: `
+ template: ` 
 
  <h1 [ngStyle]="styleBindingExample">Hello !!</h1>
 
