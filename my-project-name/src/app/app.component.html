@@ -1,13 +1,30 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <h1>
+  <h1 [class]="titleClass">
     Welcome to {{title}}!
+  </h1>
+
+  <h1 [style.color]="titleStyle ? 'green' : 'pink'">
+    {{title}}
+  </h1>
+
+  <h1 [ngClass]="titleClasses">
+  {{title}}
+  </h1>
+
+  <h1 [ngStyle]="titleStyles">
+    {{title}}
   </h1>
 
 
   <h2><app-my-new-component></app-my-new-component></h2>
 
+
+
+
+<button (click)="myEvent($event)">My Button</button>
 <h2>Here are some links to help you start: </h2>
+
 
 
 <!-- <ul>
