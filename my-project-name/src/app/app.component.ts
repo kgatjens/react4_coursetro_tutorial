@@ -152,6 +152,8 @@ import { trigger,state,style,transition,animate,keyframes } from '@angular/anima
           style({opacity: 0, transform: 'translateY(-75%)', offset: 0}),
           style({opacity: 1, transform: 'translateY(35px)',  offset: 0.5}),
           style({opacity: 1, transform: 'translateY(0)',     offset: 1.0})
+        ]))),
+        
     ]),
  ]
 
